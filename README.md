@@ -17,7 +17,7 @@ In the project:
       ![alt text](./images/steps.png?raw=true "Steps to follow")
       
   - Use pre-trained VGG16 network and replace the last few layers were replaced by fully connected layers to handle 10 classes.
-- **Multi-resoltution network was used to try to improve the performance of the existing network** - paper:[Feedforward semantic segmentation with zoom-out features](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf)
+- **Multi-resoltution network was used to try to improve the performance of the existing network** - [Feedforward semantic segmentation with zoom-out features](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf)
     1. Used the pre-trained VGG16 model to extract the feature maps
     2. As the model is pre-trained, the feature maps were extracted before the training of the model.
     3. Approach:
