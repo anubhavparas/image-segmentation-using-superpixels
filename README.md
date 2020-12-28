@@ -14,7 +14,7 @@ In the project:
       - dilate the rectangle by 3 pixels.
       - get the same region from the segmentation image (from the file with similar name with *_GT). The class for this sp_i is mode of segmentation classes in that same region. Save the dilated region as npy (jpg is lossy for such small patches). Refer to the flow below:
       
-      ![alt text](./images/step.png?raw=true "Steps to follow")
+      ![alt text](./images/steps.png?raw=true "Steps to follow")
       
   - Use pre-trained VGG16 network and replace the last few layers were replaced by fully connected layers to handle 10 classes.
 - **Multi-resoltution network was used to try to improve the performance of the existing network** - paper:[Feedforward semantic segmentation with zoom-out features](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Mostajabi_Feedforward_Semantic_Segmentation_2015_CVPR_paper.pdf)
