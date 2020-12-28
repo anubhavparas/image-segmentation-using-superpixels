@@ -33,3 +33,6 @@ In the project:
       - Design a simple classifier (MLP network with hidden layers and one output layer of ten units).
       - Train the model with the feature vectors extracted from the VGGNet.
  
+ ### Result:
+ - Image segmentation:
+  ![alt text](./images/seg_result.PNG?raw=true "Segmentation results")
