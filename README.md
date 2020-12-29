@@ -1,4 +1,4 @@
-# Image Segmentation Using Superpixels
+# Image Segmentation Using Superpixels and Zoom-out features
 
 The goal is to build a segmentation network, which uses SLIC Superpixels as input. In essense, it will be a classifier for superpixels. 
 The end product is a system which, when given an image, computes superpixels and classifies each superpixel as one of the 9 classes of MSRC v1.
